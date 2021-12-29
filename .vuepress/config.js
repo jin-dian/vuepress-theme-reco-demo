@@ -1,9 +1,9 @@
 module.exports = {
-  title: "vuepress-theme-reco",
-  description: 'A simple and beautiful vuepress blog theme .',
+  title: "叮当有耳朵的",
+  description: '随便写写',
   dest: 'public',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: 'https://gitee.com/jin-dian/image-cloud/raw/master/jin-avatar.jpg' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   theme: 'reco',
@@ -14,18 +14,18 @@ module.exports = {
       { text: 'Docs', 
         icon: 'reco-message',
         items: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/' }
+          { text: 'JavaScript数据结构', link: '/docs/JavaScript/' }
         ]
       },
-      { text: 'Contact', 
-        icon: 'reco-message',
-        items: [
-          { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
-        ]
-      }
+      // { text: 'Contact', 
+      //   icon: 'reco-message',
+      //   items: [
+      //     { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
+      //   ]
+      // }
     ],
     sidebar: {
-      '/docs/theme-reco/': [
+      '/docs/JavaScript/': [
         '',
         'theme',
         'plugin',
@@ -44,20 +44,20 @@ module.exports = {
         text: 'Tag' // 默认 “标签”
       }
     },
-    friendLink: [
-      {
-        title: '午后南杂',
-        desc: 'Enjoy when you can, and endure when you must.',
-        email: '1156743527@qq.com',
-        link: 'https://www.recoluan.com'
-      },
-      {
-        title: 'vuepress-theme-reco',
-        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: 'https://vuepress-theme-reco.recoluan.com'
-      },
-    ],
+    // friendLink: [
+    //   {
+    //     title: '午后南杂',
+    //     desc: 'Enjoy when you can, and endure when you must.',
+    //     email: '1156743527@qq.com',
+    //     link: 'https://www.recoluan.com'
+    //   },
+    //   {
+    //     title: '微信',
+    //     desc: 'XJDX1998',
+    //     avatar: "reco-wechat",
+    //     // link: 'https://vuepress-theme-reco.recoluan.com'
+    //   },
+    // ],
     logo: '/logo.png',
     // 搜索设置
     search: true,
@@ -67,13 +67,13 @@ module.exports = {
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
-    author: 'reco_luan',
+    author: 'Jin Dian',
     // 作者头像
-    authorAvatar: '/avatar.png',
+    authorAvatar: 'https://gitee.com/jin-dian/image-cloud/raw/master/jin-avatar.jpg',
     // 备案号
-    record: 'xxxx',
+    // record: 'xxxx',
     // 项目开始时间
-    startYear: '2017'
+    // startYear: '2017'
     /**
      * 密钥 (if your blog is private)
      */

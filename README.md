@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: 叮当有耳朵的
+tagline: 随便写写
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
@@ -12,7 +12,7 @@ tagline: A simple and beautiful vuepress blog theme.
 #   borderRadius: '1rem',
 # }
 bgImageStyle: {
-  height: '450px'
+  height: '300px'
 }
 isShowTitleInHome: false
 actionText: Guide
